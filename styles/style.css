@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1f9fd;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título */
+h2 {
+    margin-bottom: 20px;
+    color: #03045e;
+}
+
+/* Input */
+input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Botões */
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0466c8;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #90e0ef;
+    color: black;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* Itens da lista */
+li {
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botão de remover */
+li button {
+    background-color: red;
+    padding: 5px 10px;
+}
+
+li button:hover {
+    background-color: darkred;
+}
+
+/* Texto do pedido atual */
+#pedidoAtual {
+    margin-top: 20px;
+    font-weight: bold;
+}
